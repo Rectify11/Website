@@ -1,4 +1,4 @@
 @font-face {
     font-family: SegoeFlnt;
-    src: local('SegoeFlnt'), url('/public/fonts/segoe_fluent.ttf') format('truetype');
+    src: local('SegoeFlnt'), url('/fonts/segoe_fluent.ttf') format('truetype');
 }
