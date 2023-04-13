@@ -2,7 +2,7 @@
 	import { Button, TextBlock } from "fluent-svelte";
 	import '../lib/fonthelper.css';
 	import "fluent-svelte/theme.css";
-  </script>
+</script>
   
   <div id="topNavbar">
 	<a href="/"><img id="r11Icon" src="/rectify11_logo.png" alt="Rectify11 Logo" height="35"/></a>
@@ -63,9 +63,10 @@
 	  margin-left: 12px;
 	  cursor: pointer;
   }
+
   </style>
 
 <head>
-  <title>Rectify11's Website</title>
+  <title>Rectify11's Website - Home</title>
 </head>
   

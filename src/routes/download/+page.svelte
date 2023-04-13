@@ -1,13 +1,12 @@
 <script lang="ts">
 	import { Button, Checkbox } from 'fluent-svelte';
+	import Layout from '';
 </script>
 
-<div>
-	
-</div>
+<Layout>
+	<h1>hello</h1>
+</Layout>
 
 <style>
-    :global(body) {
-
-    }
 </style>
+
