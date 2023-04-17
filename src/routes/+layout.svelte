@@ -9,22 +9,28 @@
     <div class="slot-container">
         <slot />
     </div>
-    <Nav />
 </div>
-
-<head>
-  <title>Rectify11's Website</title>
-</head>
+<div class="topNav">
+    <Nav/>
+</div>  
 
 <style>
     .slot-container
     {
-        background-color: blue;
-        overflow-x:hidden;
+        overflow-x: hidden;
 	    min-height: 100vh;
 	    position: absolute;
 	    top: 0;
 	    left: 0;
-	    width: 100vw;
+	    width: 100%;
+    }
+
+    .topNav
+    {
+        position: fixed;
+        z-index: 10;
+        margin: 0;
+        margin-top: -8px;
+        margin-left: -8px;
     }
 </style>

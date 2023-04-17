@@ -10,8 +10,13 @@
 	#container{
 		background-color: red;
 		margin-top: 60px;
-		height: 100vh + 30px;
-		width: 200px;
+		width: 100vw;
+		min-height: 100vh;
+		overflow-x: hidden;
 	}
 </style>
+
+<head>
+	<title>Rectify11 • Download</title>
+</head>
 
