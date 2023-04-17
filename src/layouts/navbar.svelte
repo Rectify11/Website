@@ -4,20 +4,20 @@
 	import "fluent-svelte/theme.css";
 </script>
   
-  <div id="topNavbar">
+<div id="topNavbar">
 	<a href="/"><img id="r11Icon" src="/rectify11_logo.png" alt="Rectify11 Logo" height="35"/></a>
-	  <div id="rightControls">
-		  <Button variant="hyperlink" height="20px" style="margin-right: 10px;" href="/community">
-			  <TextBlock style="color:#B0B2B7;">Community</TextBlock>
-		  </Button>
-		  <Button variant="hyperlink" height="20px" style="margin-right: 20px;" href="/faq">
-			  <TextBlock style="color:#B0B2B7;">FAQ</TextBlock>
-		  </Button>
-		  <Button variant="accent" height="20px" style="cursor: pointer;" href="/download">
-			  <TextBlock style="font-family: SegoeFlnt; height: 10px; margin-top: 0px; margin-right: 4px; margin-top: -8px; margin-left: -2px; padding: 0px;">&#xE118;</TextBlock>  Download
-		  </Button>
-	  </div>
-  </div>
+	<div id="rightControls">
+		<Button variant="hyperlink" height="20px" style="margin-right: 10px;" href="/community">
+			<TextBlock style="color:#B0B2B7;">Community</TextBlock>
+		</Button>
+		<Button variant="hyperlink" height="20px" style="margin-right: 20px;" href="/faq">
+			<TextBlock style="color:#B0B2B7;">FAQ</TextBlock>
+		</Button>
+		<Button variant="accent" height="20px" style="cursor: pointer;" href="/download">
+			<TextBlock style="font-family: SegoeFlnt; height: 10px; margin-top: 0px; margin-right: 4px; margin-top: -8px; margin-left: -2px; padding: 0px;">&#xE118;</TextBlock>  Download
+		</Button>
+	</div>
+</div>
   
   <style>
 	  :global(body) {

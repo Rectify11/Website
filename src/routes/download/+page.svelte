@@ -1,12 +1,17 @@
 <script lang="ts">
 	import { Button, Checkbox } from 'fluent-svelte';
-	import Layout from '';
 </script>
 
-<Layout>
-	<h1>hello</h1>
-</Layout>
+<div id="container">
+	<h1>Hello?</h1>
+</div>
 
 <style>
+	#container{
+		background-color: red;
+		margin-top: 60px;
+		height: 100vh + 30px;
+		width: 200px;
+	}
 </style>
 
