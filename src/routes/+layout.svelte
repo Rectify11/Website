@@ -12,7 +12,7 @@
 </div>
 <div class="topNav">
     <Nav/>
-</div>  
+</div>
 
 <style>
     .slot-container
