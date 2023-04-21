@@ -4,17 +4,41 @@
 
     const featureCards = [
     {
-      name: 'test card',
+      name: 'big name',
+      description: 'A test card for the feature card UI.',
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
+    },
+    {
+      name: 'big name',
+      description: 'A test card for the feature card UI.',
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
+    },
+    {
+      name: 'big name',
+      description: 'A test card for the feature card UI.',
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
+    },
+    {
+      name: 'big name',
+      description: 'A test card for the feature card UI.',
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
+    },
+    {
+      name: 'big name',
+      description: 'A test card for the feature card UI.',
+      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
+    },
+    {
+      name: 'big name',
       description: 'A test card for the feature card UI.',
       hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
     },
   ];
 </script>
-font-size: 20px
 <div id="container">
 	<div id="intro">
         <TextBlock variant="display" style="margin-left: 20px; margin-right: 20px; font-size: 60px;">Introducing Rectify11</TextBlock>
-        <TextBlock variant="bodyLarge" style="margin-top: 10px; margin-left: 20px; margin-right: 20px;">Improving upon the Windows 11 experience.</TextBlock>
+        <TextBlock variant="bodyLarge" style="margin-top: 8px; margin-left: 20px; margin-right: 20px;">Improving upon the Windows 11 experience.</TextBlock>
     </div>
     <div id="card-container">
         {#each featureCards as featureCard}
@@ -30,14 +54,13 @@ font-size: 20px
         background-size: cover; 
         width: 100vw;
 		min-height: 100vh;
-		overflow-x: hidden;
         text-align: center;
-        background-image: url("/src/lib/bloom_dark.jpg");
+        background: url("/src/lib/bloom_dark.jpg") no-repeat center center fixed;
         background-size: cover;
-        background-position: center;
-        margin-top: -18px;
         display: flex;
         flex-direction: column;
+        overflow: auto;
+        overflow-x: hidden;
     }
     @media (prefers-color-scheme: light) {
         #container 
@@ -52,18 +75,17 @@ font-size: 20px
         flex-direction: column;
         width: auto;
         height: auto;
-        margin: 0 auto;
-        margin-top: 80px;
+        margin-top: 100px;
     }
 
     #card-container
     {
-        background-color: var(--fds-solid-background-base);
+        
         width: 100vw;
         height: 500px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
         margin-top: 70px;
         vertical-align: middle;
     }

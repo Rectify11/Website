@@ -17,6 +17,7 @@
 <style>
     .slot-container
     {
+        overflow: auto;
         overflow-x: hidden;
 	    min-height: 100vh;
 	    position: absolute;
