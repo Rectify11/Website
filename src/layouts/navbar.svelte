@@ -47,7 +47,7 @@
 	  left: 0;
 	  width: 100vw;
 	  backdrop-filter: blur(40px) saturate(400%);
-	  background-blend-mode: lighten;
+	  background-blend-mode: darken;
 	  position: absolute;
 	  display: flex;
   }
