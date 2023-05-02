@@ -80,7 +80,6 @@
 
     #card-container
     {
-        
         width: 100vw;
         height: 500px;
         display: flex;

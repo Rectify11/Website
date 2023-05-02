@@ -58,6 +58,7 @@
 	  left: 0;
 	  width: 100vw;
 	  backdrop-filter: blur(20px) saturate(400%);
+	  -webkit-backdrop-filter: blur(20px) saturate(400%);
 	  background-blend-mode: darken;
 	  position: absolute;
 	  display: flex;

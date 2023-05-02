@@ -34,6 +34,7 @@
 
     .card
     {
+        -webkit-backdrop-filter: blur(40px) saturate(100%);
         backdrop-filter: blur(40px) saturate(100%);
         background-color: var(--default-bg);
 	    background-blend-mode: darken;
