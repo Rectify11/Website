@@ -15,6 +15,10 @@
 </div>
 
 <style>
+    ::-webkit-scrollbar 
+    {
+        display: none;
+    }
     .slot-container
     {
         overflow-x: hidden;

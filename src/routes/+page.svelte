@@ -4,7 +4,7 @@
 
     const featureCards = [
     {
-      name: 'big name',
+      name: 'Better scaling',
       description: 'A test card for the feature card UI.',
       hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
     },
@@ -61,6 +61,7 @@
         flex-direction: column;
         overflow: auto;
         overflow-x: hidden;
+        overflow-y: hidden;
     }
     @media (prefers-color-scheme: light) {
         #container 
@@ -81,7 +82,7 @@
     #card-container
     {
         width: 100vw;
-        height: 500px;
+        min-height: 215px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -91,5 +92,5 @@
 </style>
 
 <head>
-    <title>Rectify11 • Home</title>
+  <title>Rectify11 • Home</title>
 </head>
