@@ -5,7 +5,7 @@
     const featureCards = [
     {
       name: 'Better scaling',
-      description: 'A test card for the feature card UI.',
+      description: 'Rectify11 makes UI controls consistent on different resolutions and scaling levels.',
       hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
     },
     {

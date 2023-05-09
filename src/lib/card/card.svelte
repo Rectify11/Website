@@ -8,7 +8,7 @@
 
 <div class="card">
     <img class="hero" src={hero} alt="feature-hero"/>
-    <TextBlock class="name" variant="title" style="margin-left: 25px; margin-top: 15px; margin-right: 25px;">{name}</TextBlock>
+    <TextBlock class="name" variant="bodyLarge" style="margin-left: 25px; margin-top: 15px; margin-right: 25px; font-size: 20px;">{name}</TextBlock>
     <TextBlock class="description" style="margin-left: 25px; margin-top: 8px; margin-right: 20px">{description}</TextBlock>
 </div>
 
