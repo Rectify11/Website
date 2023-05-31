@@ -5,7 +5,7 @@
     const featureCards = [
     {
       name: 'Better scaling',
-      description: 'Rectify11 makes UI controls consistent on different resolutions and scaling levels.',
+      description: 'Rectify11 makes UI controls consistent on different resolutions and scaling options.',
       hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/scaling.png?raw=true"
     },
     {
@@ -14,18 +14,18 @@
       hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/menusD.png?raw=true"
     },
     {
-      name: 'Rectify11 has a more consistent theme',
-      description: 'We have tried our best to replicate WinUI controls in our themes and adds proper dark theme support to most apps.',
+      name: 'Truly consistent',
+      description: 'We have tried our best to replicate fluent controls in our themes, and add proper darkmode support to most apps.',
       hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/ui.png?raw=true"
     },
     {
-      name: 'Rectify11 has better performance',
+      name: 'Better performance',
       description: 'In future releases, you will be able to choose things that you want to debloat in your system.',
       hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/performance.png?raw=true"
     },
     {
       name: 'Better experience',
-      description: 'Rectify11 adds many quality of life fixes to Windows 11, such as resizing the checkboxes as you change the view in File Explorer',
+      description: 'Rectify11 adds many quality of life improvements to Windows 11, allowing you to be more productive.',
       hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/cool.png?raw=true"
     },
   ];
@@ -48,7 +48,7 @@
         background-color: var(--fds-solid-background-base);
         background-size: cover; 
         width: 100vw;
-		min-height: 100vh;
+		    min-height: 100vh;
         text-align: center;
         background: url("/src/lib/bloom_dark.jpg") no-repeat center center fixed;
         background-size: cover;

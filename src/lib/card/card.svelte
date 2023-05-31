@@ -8,7 +8,7 @@
 
 <div class="card">
     <img class="hero" src={hero} alt="feature-hero"/>
-    <TextBlock class="name" variant="bodyLarge" style="margin-left: 25px; margin-top: 15px; margin-right: 25px; font-size: 20px;">{name}</TextBlock>
+    <TextBlock class="name" variant="bodyLarge" style="margin-top: 15px; font-size: 20px;">{name}</TextBlock>
     <TextBlock class="description" style="margin-left: 25px; margin-top: 8px; margin-right: 20px">{description}</TextBlock>
 </div>
 
@@ -38,8 +38,8 @@
         backdrop-filter: blur(40px) saturate(100%);
         background-color: var(--default-bg);
 	    background-blend-mode: darken;
-        width: 210px;
-        height: 300px;
+        width: 220px;
+        height: 250px;
         border-radius: 12px;
         border: 1px solid rgba(80, 80, 80, 0.226);
         padding: 0px;
@@ -47,7 +47,7 @@
         transition: all 0.2s ease-in-out;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         overflow: hidden;
     }
     .card:hover
@@ -60,7 +60,6 @@
     {
         height: 60px;
         width: 60px;
-        margin-left: 25px;
         margin-top: 25px;
     }
 </style>

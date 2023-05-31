@@ -10,7 +10,26 @@
 </script>
 
 <div class="mobileNavMenu" class:showMobileNav={openNavMobile}>
-
+	<div class="mobileNavButton">
+		<Button variant="hyperlink" height="20px" href="/">
+			<TextBlock>Home</TextBlock>
+		</Button>
+	</div>
+	<div class="mobileNavButton">
+		<Button variant="hyperlink" height="20px" href="https://discord.gg/rectify11-community-1077324213142175744">
+			<TextBlock>Discord Community</TextBlock>
+		</Button>
+	</div>
+	<div class="mobileNavButton">
+		<Button variant="hyperlink" height="20px" href="/faq">
+			<TextBlock>FAQ</TextBlock>
+		</Button>
+	</div>
+	<div class="mobileNavButton">
+		<Button variant="accent" height="20px" style="cursor: pointer;" href="https://github.com/MishaProductions/Rectify11Installer/releases">
+			<TextBlock style="font-family: SegoeFlnt; height: 10px; margin-top: 0px; margin-right: 4px; margin-top: -8px; margin-left: -2px; padding: 0px;">&#xE118;</TextBlock>  Download
+		</Button>
+	</div>
 </div>
 
 <div id="topNavbar">
@@ -118,17 +137,25 @@
 
   #rightMobileControl
   {
-	  margin-left: auto;
-	  margin-right: 20px;
-	  display: flex;
-	  align-items: center;
+	margin-left: auto;
+	margin-right: 20px;
+	display: flex;
+	align-items: center;
   }
   
   #r11Icon
   {
-	  margin-top: 12px;
-	  margin-left: 12px;
-	  cursor: pointer;
+	margin-top: 12px;
+	margin-left: 12px;
+	cursor: pointer;
+  }
+
+  .mobileNavButton
+  {
+	width: 205px;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
   }
 
   </style>
