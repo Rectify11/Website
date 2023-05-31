@@ -6,32 +6,27 @@
     {
       name: 'Better scaling',
       description: 'Rectify11 makes UI controls consistent on different resolutions and scaling levels.',
-      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
+      hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/scaling.png?raw=true"
     },
     {
-      name: 'big name',
-      description: 'A test card for the feature card UI.',
-      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
+      name: 'Better UI',
+      description: 'We have replaced most legacy icons with modern icons and updated older MetroUI based dialogs.',
+      hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/menusD.png?raw=true"
     },
     {
-      name: 'big name',
-      description: 'A test card for the feature card UI.',
-      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
+      name: 'Rectify11 has a more consistent theme',
+      description: 'We have tried our best to replicate WinUI controls in our themes and adds proper dark theme support to most apps.',
+      hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/ui.png?raw=true"
     },
     {
-      name: 'big name',
-      description: 'A test card for the feature card UI.',
-      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
+      name: 'Rectify11 has better performance',
+      description: 'In future releases, you will be able to choose things that you want to debloat in your system.',
+      hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/performance.png?raw=true"
     },
     {
-      name: 'big name',
-      description: 'A test card for the feature card UI.',
-      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
-    },
-    {
-      name: 'big name',
-      description: 'A test card for the feature card UI.',
-      hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png"
+      name: 'Better experience',
+      description: 'Rectify11 adds many quality of life fixes to Windows 11, such as resizing the checkboxes as you change the view in File Explorer',
+      hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/cool.png?raw=true"
     },
   ];
 </script>
@@ -82,7 +77,7 @@
     #card-container
     {
         width: 100vw;
-        min-height: 215px;
+        min-height: 225px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

@@ -39,7 +39,7 @@
         background-color: var(--default-bg);
 	    background-blend-mode: darken;
         width: 210px;
-        height: 230px;
+        height: 300px;
         border-radius: 12px;
         border: 1px solid rgba(80, 80, 80, 0.226);
         padding: 0px;
@@ -47,10 +47,8 @@
         transition: all 0.2s ease-in-out;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
         align-items: flex-start;
         overflow: hidden;
-        text-align: justify;
     }
     .card:hover
     {
