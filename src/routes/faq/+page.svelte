@@ -46,5 +46,5 @@
 </style>
 
 <head>
-  <title>Rectify11 • Home</title>
+  <title>Rectify11 • FAQ</title>
 </head>
