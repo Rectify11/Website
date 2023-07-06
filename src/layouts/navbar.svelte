@@ -35,6 +35,7 @@
 
 <div id="topNavbar">
 	<a href="/"><img id="r11Icon" src="/rectify11_logo.png" alt="Rectify11 Logo" height="35"/></a>
+	<TextBlock variant="bodyLarge" style="font-size:25px; margin-top: 16px; margin-left: 8px;">Rectify11</TextBlock>
 	<div id="rightMobileControl">
 		<IconButton on:click={toggleNavMenu}>
 			<svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
