@@ -6,27 +6,27 @@
     {
       name: 'Better scaling',
       description: 'Rectify11 makes UI controls consistent on different resolutions and scaling options.',
-      hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/scaling.png?raw=true"
+      hero: "/images/scaling.png"
     },
     {
       name: 'Better UI',
       description: 'We have replaced most legacy icons with modern icons and updated older MetroUI based dialogs.',
-      hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/menusD.png?raw=true"
+      hero: "/images/menusD.png"
     },
     {
       name: 'Truly consistent',
       description: 'We have tried our best to replicate fluent controls in our themes, and add proper darkmode support to most apps.',
-      hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/ui.png?raw=true"
+      hero: "/images/ui.png"
     },
     {
       name: 'Better performance',
       description: 'In future releases, you will be able to choose things that you want to debloat in your system.',
-      hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/performance.png?raw=true"
+      hero: "/images/performance.png"
     },
     {
       name: 'Better experience',
       description: 'Rectify11 adds many quality of life improvements to Windows 11, allowing you to be more productive.',
-      hero: "https://github.com/MishaProductions/Rectify11Installer/blob/master/Rectify11Installer/Resources/cool.png?raw=true"
+      hero: "/images/cool.png"
     },
   ];
 </script>
@@ -50,7 +50,7 @@
         width: 100vw;
 		    min-height: 100vh;
         text-align: center;
-        background: url("/src/lib/bloom_dark.jpg") no-repeat center center fixed;
+        background: url("/src/lib/dark_bg.png") no-repeat center center fixed;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -61,7 +61,7 @@
     @media (prefers-color-scheme: light) {
         #container 
         {
-            background-image: url("/src/lib/bloom_light.jpg");
+            background-image: url("/src/lib/light_bg.png");
         }
     }
 

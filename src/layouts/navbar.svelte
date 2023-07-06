@@ -2,6 +2,7 @@
 	import { Button, TextBlock, IconButton } from "fluent-svelte";
 	import '../lib/fonthelper.css';
 	import "fluent-svelte/theme.css";
+	import * as links from "../lib/links";
 
 	function toggleNavMenu() {
     	openNavMobile = !openNavMobile;
@@ -11,22 +12,22 @@
 
 <div class="mobileNavMenu" class:showMobileNav={openNavMobile}>
 	<div class="mobileNavButton">
-		<Button variant="hyperlink" height="20px" href="/">
+		<Button variant="hyperlink" height="20px" href="/" on:click={toggleNavMenu}>
 			<TextBlock>Home</TextBlock>
 		</Button>
 	</div>
 	<div class="mobileNavButton">
-		<Button variant="hyperlink" height="20px" href="https://discord.gg/rectify11-community-1077324213142175744">
+		<Button variant="hyperlink" height="20px" href="{links.discordLink}" on:click={toggleNavMenu}>
 			<TextBlock>Discord Community</TextBlock>
 		</Button>
 	</div>
 	<div class="mobileNavButton">
-		<Button variant="hyperlink" height="20px" href="/faq">
+		<Button variant="hyperlink" height="20px" href="/faq" on:click={toggleNavMenu}>
 			<TextBlock>FAQ</TextBlock>
 		</Button>
 	</div>
 	<div class="mobileNavButton">
-		<Button variant="accent" height="20px" style="cursor: pointer;" href="https://github.com/MishaProductions/Rectify11Installer/releases">
+		<Button variant="accent" height="20px" style="cursor: pointer;" href="{links.gitHubLink}">
 			<TextBlock style="font-family: SegoeFlnt; height: 10px; margin-top: 0px; margin-right: 4px; margin-top: -8px; margin-left: -2px; padding: 0px;">&#xE118;</TextBlock>  Download
 		</Button>
 	</div>
@@ -42,13 +43,13 @@
 		</IconButton>
 	</div>
 	<div id="rightControls">
-		<Button variant="hyperlink" height="20px" style="margin-right: 10px;" href="https://discord.gg/rectify11-community-1077324213142175744">
+		<Button variant="hyperlink" height="20px" style="margin-right: 10px;" href="{links.discordLink}">
 			<TextBlock>Discord Community</TextBlock>
 		</Button>
 		<Button variant="hyperlink" height="20px" style="margin-right: 20px;" href="/faq">
 			<TextBlock>FAQ</TextBlock>
 		</Button>
-		<Button variant="accent" height="20px" style="cursor: pointer;" href="https://github.com/MishaProductions/Rectify11Installer/releases">
+		<Button variant="accent" height="20px" style="cursor: pointer;" href="{links.gitHubLink}">
 			<TextBlock style="font-family: SegoeFlnt; height: 10px; margin-top: 0px; margin-right: 4px; margin-top: -8px; margin-left: -2px; padding: 0px;">&#xE118;</TextBlock>  Download
 		</Button>
 	</div>
@@ -76,7 +77,7 @@
 	  top: 0;
 	  left: 0;
 	  width: 100vw;
-	  backdrop-filter: blur(20px) saturate(400%);
+	  backdrop-filter: blur(10px) saturate(400%);
 	  -webkit-backdrop-filter: blur(20px) saturate(400%);
 	  background-blend-mode: darken;
 	  position: absolute;
@@ -124,7 +125,9 @@
   {
 	width: 210px;
 	height: 100vh;
-	background-color: var(--fds-solid-background-base);
+	background-color: rgba(41, 41, 41, 0.729);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
 	position: fixed;
 	right: -210px;
 	margin-top: 60px;
