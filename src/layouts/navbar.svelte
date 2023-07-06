@@ -35,7 +35,7 @@
 
 <div id="topNavbar">
 	<a href="/"><img id="r11Icon" src="/rectify11_logo.png" alt="Rectify11 Logo" height="35"/></a>
-	<TextBlock variant="bodyLarge" style="font-size:25px; margin-top: 16px; margin-left: 8px;">Rectify11</TextBlock>
+	<div class="r11Banner"><TextBlock variant="bodyLarge" style="font-size:25px; margin-top: 17px; margin-left: 8px;">Rectify11</TextBlock></div>
 	<div id="rightMobileControl">
 		<IconButton on:click={toggleNavMenu}>
 			<svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -84,12 +84,31 @@
 	  position: absolute;
 	  display: flex;
   }
+  
+  .mobileNavMenu
+  {
+	background-color: #343333ba;
+	width: 210px;
+	height: 100vh;
+	backdrop-filter: blur(20px) saturate(400%);
+	-webkit-backdrop-filter: blur(20px) saturate(400%);
+	position: fixed;
+	right: -210px;
+	margin-top: 60px;
+	transition: all 0.2s ease-in-out;
+	background-blend-mode: darken;
+  }
+
   @media (prefers-color-scheme: light) {
         #topNavbar
         {
             background-color: #d2d2d2ba;
 			background-blend-mode: darken;
         }
+		.mobileNavMenu {
+        	background-color: #d2d2d2ba;
+			background-blend-mode: darken;
+    	}
   }
   @media (max-width: 768px) {
 		#rightControls
@@ -100,6 +119,11 @@
 		{
 			visibility: visible;
 		}
+
+		.r11Banner
+		{
+			visibility: collapse;
+		}
   }
   @media (min-width: 769px) {
 		#rightControls
@@ -109,6 +133,11 @@
 		#rightMobileControl
 		{
 			visibility: collapse;
+		}
+		
+		.r11Banner
+		{
+			visibility: visible;
 		}
   }
   
@@ -122,18 +151,6 @@
 	  margin-right: 20px;
   }
 
-  .mobileNavMenu
-  {
-	width: 210px;
-	height: 100vh;
-	background-color: rgba(41, 41, 41, 0.729);
-	backdrop-filter: blur(20px);
-	-webkit-backdrop-filter: blur(20px);
-	position: fixed;
-	right: -210px;
-	margin-top: 60px;
-	transition: all 0.2s ease-in-out;
-  }
   .showMobileNav
   {
 	right: 0;
