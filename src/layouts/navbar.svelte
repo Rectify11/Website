@@ -56,17 +56,17 @@
 	</div>
 </div>
   
-  <style>
-	  :global(body) {
-		  color: var(--fds-text-primary);
-		  color-scheme: dark;
-	  }
-	  @media (prefers-color-scheme: light) {
-	  :global(body) {
-		  background-color: white;
-		  color-scheme: light;
-	  }
-  }
+<style>
+	:global(body) {
+		color: var(--fds-text-primary);
+		color-scheme: dark;
+	}
+	@media (prefers-color-scheme: light) {
+		:global(body) {
+			background-color: white;
+			color-scheme: light;
+		}
+    }
   
   #topNavbar
   {
@@ -179,14 +179,9 @@
 	margin-top: 20px;
   }
 
-  </style>
+</style>
 
 <head>
   <title>Rectify11's Website</title>
-  <meta content="Rectify11's Website" property="og:title" />
-  <meta content="The official website of Rectify11." property="og:description" />
-  <meta content="https://rectify11.net" property="og:url" />
-  <meta content="https://github.com/Pdawg-bytes/rectify11-website/blob/main/static/rectify11_logo.png?raw=true" property="og:image" />
-  <meta content="#1BA1E2" data-react-helmet="true" name="theme-color" />
 </head>
   
