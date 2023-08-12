@@ -77,6 +77,6 @@
     }
 </style>
 
-<head>
-  <title>Rectify11 • FAQ</title>
-</head>
+<svelte:head>
+    <title>Rectify11 • FAQ</title>
+</svelte:head>

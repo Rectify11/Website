@@ -86,6 +86,6 @@
     }
 </style>
 
-<head>
-  <title>Rectify11 • Home</title>
-</head>
+<svelte:head>
+    <title>Rectify11 • Home</title>
+</svelte:head>
