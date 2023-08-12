@@ -5,17 +5,17 @@
     const featureCards = [
     {
       name: 'Better scaling',
-      description: 'Rectify11 makes UI controls consistent on different resolutions and scaling options.',
+      description: "Rectify11 makes UI controls consistent on different resolutions and scaling options by improving Microsoft's visual style",
       hero: "/images/scaling.png"
     },
     {
       name: 'Better UI',
-      description: 'We have replaced most legacy icons with modern icons and updated older MetroUI based dialogs.',
+      description: 'We have replaced most legacy icons with modern icons and updated older MetroUI based dialogs to use fluent design.',
       hero: "/images/menusD.png"
     },
     {
       name: 'Truly consistent',
-      description: 'We have tried our best to replicate fluent controls in our themes, and add proper darkmode support to most apps.',
+      description: 'We have tried our best to replicate fluent controls in our themes, and add proper dark mode support to most apps by creating a custom theme.',
       hero: "/images/ui.png"
     },
     {
