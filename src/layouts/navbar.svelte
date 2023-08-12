@@ -188,8 +188,3 @@
   }
 
 </style>
-
-<head>
-  <title>Rectify11's Website</title>
-</head>
-  
