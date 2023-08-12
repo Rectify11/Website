@@ -10,7 +10,7 @@
     },
     {
       name: 'Better UI',
-      description: 'We have replaced most legacy icons with modern icons and updated older MetroUI based dialogs to use fluent design.',
+      description: 'We have replaced most legacy icons with modern icons and updated older Metro based dialogs to use Fluent Design.',
       hero: "/images/menusD.png"
     },
     {
@@ -25,12 +25,12 @@
     },
     {
       name: 'Better experience',
-      description: 'Rectify11 adds many quality of life improvements to Windows 11, allowing you to be more productive.',
+      description: 'Rectify11 adds many quality of life improvements to Windows 11.',
       hero: "/images/cool.png"
     },
     {
-      name: 'Fluent icons',
-      description: 'Rectify11 modernizes almost all of the ancient icon libraries in Windows 11, making your experience cleaner.',
+      name: 'Better icons',
+      description: 'Rectify11 modernizes almost all of the ancient icon libraries in Windows 11, making your experience more consistent.',
       hero: "/images/archicons.png"
     },
   ];
@@ -92,5 +92,5 @@
 </style>
 
 <svelte:head>
-    <title>Rectify11 • Home</title>
+    <title>Rectify11</title>
 </svelte:head>
