@@ -28,6 +28,11 @@
       description: 'Rectify11 adds many quality of life improvements to Windows 11, allowing you to be more productive.',
       hero: "/images/cool.png"
     },
+    {
+      name: 'Fluent icons',
+      description: 'Rectify11 modernizes almost all of the ancient icon libraries in Windows 11, making your experience cleaner.',
+      hero: "/images/archicons.png"
+    },
   ];
 </script>
 <div id="container">
