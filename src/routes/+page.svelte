@@ -33,7 +33,7 @@
 <div id="container">
 	<div id="intro">
         <TextBlock variant="display" style="margin-left: 20px; margin-right: 20px; font-size: 60px;">Introducing Rectify11</TextBlock>
-        <TextBlock variant="bodyLarge" style="margin-top: 8px; margin-left: 20px; margin-right: 20px;">Rectify11 improves the consistency of Windows 11 by modifying system files in a safe way.</TextBlock>
+        <TextBlock variant="bodyLarge" style="margin-top: 8px; margin-left: 20px; margin-right: 20px;">Rectify11 improves the consistency of Windows 11 by modifying system files in a safe way, and by using various programs to improve the Windows 11 experience.</TextBlock>
     </div>
     <div id="card-container">
         {#each featureCards as featureCard}
