@@ -18,7 +18,7 @@
         },
         {
             question: 'Is Rectify11 free?',
-            answer: 'Yes - Rectify11 is made for the community, by the community. We maintain the source code under an Open Source License.',
+            answer: 'Yes - Rectify11 is made for the community, by the community. We maintain the source code under the GNU General Public License.'
         }
     ];
 </script>
