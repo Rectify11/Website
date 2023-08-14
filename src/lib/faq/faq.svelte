@@ -7,6 +7,7 @@
 
 <div class="card">
     <div class="content">
+        <div><img class="hero" src="/images/question.png" alt="question-hero"/></div>
         <div><TextBlock class="question" variant="bodyLarge" style="margin-top: 15px; font-size: 20px;">{question}</TextBlock></div>
     </div>
     <TextBlock class="answer" style="margin-left: 25px; margin-top: auto; margin-right: 20px; margin-bottom:auto;">{answer}</TextBlock>
