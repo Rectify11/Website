@@ -5,7 +5,7 @@
     const featureCards = [
     {
       name: 'Better scaling',
-      description: "Rectify11 makes UI controls consistent on different resolutions and scaling options by improving Microsoft's visual style",
+      description: "Rectify11 makes UI controls consistent on different resolutions and scaling options by improving Microsoft's visual style.",
       hero: "/images/scaling.png"
     },
     {
@@ -15,7 +15,7 @@
     },
     {
       name: 'Truly consistent',
-      description: 'We have tried our best to replicate fluent controls in our themes, and add proper dark mode support to most apps by creating a custom theme.',
+      description: 'We have tried our best to replicate fluent controls in our themes, and add proper dark mode support to most apps.',
       hero: "/images/ui.png"
     },
     {
