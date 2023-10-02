@@ -14,7 +14,7 @@
         },
         {
             question: 'How do I uninstall Rectify11?',
-            answer: 'For now, the uninstaller is not implemented. Use sfc /scannow and remove any extras that were installed.',
+            answer: 'You can use the "Uninstall" button in the Rectify11 Installer on versions RC1 and up.',
         },
         {
             question: 'Is Rectify11 free?',
