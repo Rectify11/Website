@@ -18,7 +18,7 @@
 	</div>
 	<div class="mobileNavButton">
 		<Button variant="hyperlink" height="20px" href="{links.discordLink}" on:click={toggleNavMenu}>
-			<TextBlock>Discord Community</TextBlock>
+			<TextBlock>Discord Server</TextBlock>
 		</Button>
 	</div>
 	<div class="mobileNavButton">
@@ -28,7 +28,7 @@
 	</div>
 	<div class="mobileNavButton">
 		<Button variant="hyperlink" height="20px" href="{links.gitHubSrcLink}" on:click={toggleNavMenu}>
-			<TextBlock>Github</TextBlock>
+			<TextBlock>GitHub</TextBlock>
 		</Button>
 	</div>
 	<div class="mobileNavButton">
