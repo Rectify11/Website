@@ -1,6 +1,18 @@
-# Rectify11 Website
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Rectify11/Website/master/logo.png">
+</p>
 
-## https://rectify11.net
+---
+
+<div align="center">
+
+[![Discord](https://img.shields.io/discord/1077324213142175744?style=flat-square)](https://discord.gg/gsgu9GCtsk)
+
+</div>
+
+The main source code of the official Rectify11 Website; https://rectify11.net
+
+<br/>
 
 Powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
