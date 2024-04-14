@@ -54,7 +54,6 @@
     .card:hover
     {
         background-color: var(--hover-bg);
-        cursor: pointer;
     }
 
     .hero

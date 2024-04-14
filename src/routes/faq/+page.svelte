@@ -1,6 +1,7 @@
 <script lang="ts">
     import Faq from "$lib/faq/faq.svelte";
     import { TextBlock } from "fluent-svelte";
+    import { InfoBar } from "fluent-svelte";
     export const prerender = true;
 
     const faqCards = [
@@ -23,6 +24,14 @@
     ];
 </script>
 <div id="container">
+      <!--Todo: fix container spacing-->
+  <br><br><br><br>
+  <InfoBar
+    title="Maintenance warning"
+    message="This website will be available for system maintenance and updates from 9:00 AM 4/20/2024 to 5:00 PM 4/21/2024 eastern standard time."
+    severity="caution"
+    closable={false}/>
+
 	<div id="intro">
         <TextBlock variant="display" style="margin-left: 20px; margin-right: 20px; font-size: 60px;">Rectify11 FAQ</TextBlock>
     </div>
@@ -74,6 +83,7 @@
         justify-content: center;
         margin-top: 70px;
         vertical-align: middle;
+        cursor: pointer;
     }
 </style>
 
