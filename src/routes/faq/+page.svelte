@@ -28,7 +28,7 @@
   <br><br><br><br>
   <InfoBar
     title="Maintenance warning"
-    message="This website will be available for system maintenance and updates from 9:00 AM 4/20/2024 to 5:00 PM 4/21/2024 eastern standard time."
+    message="This website will be unavailable for system maintenance from 9:00 AM 4/20/2024 EST to an unspecified time."
     severity="caution"
     closable={false}/>
 
