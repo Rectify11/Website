@@ -86,8 +86,8 @@
 	  top: 0;
 	  left: 0;
 	  width: 100vw;
-	  backdrop-filter: blur(10px) saturate(400%);
-	  -webkit-backdrop-filter: blur(20px) saturate(400%);
+	  backdrop-filter: blur(10px) saturate(100%);
+	  -webkit-backdrop-filter: blur(20px) saturate(100%);
 	  background-blend-mode: darken;
 	  position: absolute;
 	  display: flex;
@@ -98,8 +98,8 @@
 	background-color: #343333ba;
 	width: 210px;
 	height: 100vh;
-	backdrop-filter: blur(20px) saturate(400%);
-	-webkit-backdrop-filter: blur(20px) saturate(400%);
+	backdrop-filter: blur(20px) saturate(100%);
+	-webkit-backdrop-filter: blur(20px) saturate(100%);
 	position: fixed;
 	right: -210px;
 	margin-top: 60px;
@@ -110,12 +110,12 @@
   @media (prefers-color-scheme: light) {
         #topNavbar
         {
-            background-color: #d2d2d2ba;
-			background-blend-mode: darken;
+            background-color: #f5f5f594;
+			background-blend-mode: normal;
         }
 		.mobileNavMenu {
-        	background-color: #d2d2d2ba;
-			background-blend-mode: darken;
+        	background-color: #f5f5f594;
+			background-blend-mode: normal;
     	}
   }
   @media (max-width: 768px) {
