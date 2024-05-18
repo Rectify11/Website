@@ -19,8 +19,8 @@ Powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/package
 ## Running locally
 
 ```bash
-git clone https://github.com/Pdawg-bytes/rectify11-website.git
-cd rectify11-website
+git clone https://github.com/Rectify11/Website.git
+cd Website
 npm install
 npm run dev -- --open
 ```
