@@ -56,7 +56,7 @@
 			<TextBlock>FAQ</TextBlock>
 		</Button>
 		<Button variant="hyperlink" height="20px" style="margin-right: 20px;" href="{links.gitHubSrcLink}">
-			<TextBlock>Github</TextBlock>
+			<TextBlock>GitHub</TextBlock>
 		</Button>
 		<Button variant="accent" height="20px" style="cursor: pointer;" href="{links.gitHubLink}">
 			<TextBlock style="font-family: SegoeFlnt; height: 10px; margin-top: 0px; margin-right: 4px; margin-top: -8px; margin-left: -2px; padding: 0px;">&#xE118;</TextBlock>  Download
