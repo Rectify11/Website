@@ -40,6 +40,11 @@
 
   <!--Todo: fix container spacing-->
   <br><br><br><br>
+  <InfoBar
+    title="Maintenance warning"
+    message="This website will be unavailable in preparation for the V4 update from July 1st 2024 to July 10th (time may vary). Thank you!"
+    severity="caution"
+    closable={false}/>
 	<div id="intro">
         <TextBlock variant="display" style="margin-left: 20px; margin-right: 20px; font-size: 60px;">Introducing Rectify11</TextBlock>
         <TextBlock variant="bodyLarge" style="margin-top: 8px; margin-left: 20px; margin-right: 20px;">Rectify11 improves the consistency of Windows 11 by modifying system files in a safe way, and by using various programs to improve the Windows 11 experience.</TextBlock>
