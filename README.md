@@ -10,6 +10,8 @@
 
 </div>
 
+# Unfortunately, as of now the Rectify11 website will not be open source. 
+
 The main source code of the official Rectify11 Website; https://rectify11.net
 
 <br/>
